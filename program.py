@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('slika4.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('slika4.png', cv2.IMREAD_GRAYSCALE)
 
 kernel = np.ones((5, 5), np.uint8)
 opening = cv2.morphologyEx(img, cv2.MORPH_OPEN, kernel)
