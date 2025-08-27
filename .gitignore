@@ -1,0 +1,7 @@
+# Ignore all images from the "images" directory
+images/*
+# But keep the folder itself
+!images/.gitkeep
+# Ignore .vscode directory
+.vscode/
+
