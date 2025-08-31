@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt # type: ignore
 from pathlib import Path
 
 # Učitaj .npz fajl
-npz_data = np.load("tissuenet_v1.1_test.npz")
+npz_data = np.load("e:\\petnica-slike-tissuenet\\tissuenet_v1.1_test.npz")
 
 # Ako ima više nizova u fajlu, možemo ih ispisati da vidimo imena
 print("Ključevi u fajlu:", list(npz_data.keys()))
